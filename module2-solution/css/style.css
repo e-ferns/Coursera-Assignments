@@ -1,15 +1,17 @@
 * {
 	box-sizing: border-box;
-
 }
 
-.row {
-	border: 1px solid;
-
-}
-
-
-
+.header {
+padding: 5px 20px;
+text-align: center;
+border: 1px solid black;
+margin-right: 10px;
+margin-bottom: 0px;
+width: 100px;
+border-radius: 5px;
+float: right;
+position: relative;
 }
 
 
@@ -17,6 +19,7 @@ body{
 	font-family: monospace;
 	background-color: aliceblue;
 	font-size: 16px;
+	
 
 }
 
@@ -29,18 +32,24 @@ p {
 	background-color: orange;
 	margin-right: 10px;
 	margin-left: 10px;
-	height: 175px;
+	height: auto;
+	margin-top: 0px;
+	padding: 8px;
+	border-radius: 5px;
+	position: relative;
+	display: flex;
+	clear: both;
+
+	
 }
 
-
-
-}
 
 
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6{
 		float: left;
-		inl
+		
+
 	}
 	.col-lg-1 {
 		width: 16.66%;
