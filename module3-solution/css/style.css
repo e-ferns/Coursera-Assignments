@@ -23,17 +23,35 @@ body {
 	color: black;
 	font-size: 2em;
 	font-weight: bold;
+	text-align: left;
+
 }
 
 .navbar-style a:hover .navbar-style a:focus {
 	text-decoration: none;
 }
 
-#nav-list a {
+#nav-list a span {
 	text-align: center;
+}
+
+#menu {
+ border: 1px solid black;
+ padding: 5px;
+ border-radius: 3px;
+ margin:20px;
+}
+
+#collapsable-nav {
+	font-family: monospace;
+	font-size: 1.5em;
 }
 
 #title {
 	text-align: center;
-	font-family: monospace;
+}
+
+#section {
+	text-align: center;
+
 }
